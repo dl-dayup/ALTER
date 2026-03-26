@@ -41,10 +41,10 @@ Before pre-training, you need to process the data into the following form:
 `data_example.json` provides some examples of training data.
 
 ### Topic
-The code files for training LDA models on the LeCaRD and COLIEE datasets are respectively located in the LDA_COLIEE.py and LDA_train_chinese.py files.
-The code file for obtaining the Topic from the LeCaRD dataset using the LDA model inference is shown in LDA_predict_chinese.py.
-The pre-trained Topic models for the LeCaRD dataset are located under lda_model dir.
-The training and inference code for Fastopic can be found in file Fastopic_wenshu.py
+1. The code files for training LDA models on the LeCaRD and COLIEE datasets are respectively located in the LDA_COLIEE.py and LDA_train_chinese.py files.
+2. The code file for obtaining the Topic from the LeCaRD dataset using the LDA model inference is shown in LDA_predict_chinese.py.
+3. The pre-trained Topic models for the LeCaRD dataset are located under lda_model dir.
+4. The training and inference code for Fastopic can be found in file Fastopic_wenshu.py
 
 ### Joint Train
 ```
